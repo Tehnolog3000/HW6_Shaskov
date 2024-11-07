@@ -5,27 +5,28 @@
     overflow: hidden;
 }
 
+nav{
+    text-align: center; 
+}
+
 nav ul li{
     display: inline-block;
     margin: 0px 25px;
     
 }
 nav ul {
-    float: left;
+    display: inline-block;   
 }
 
-.logo {
+.logo-style{
     float: left;
-    margin-right: 229px;
 }
-
 
 .btn-style{
     float: right;
 }
 .style-logout {
     float: right;
-    display: inline-block;
     width: 100px;
     height: 35px;
     border-radius: 6px;
@@ -89,7 +90,6 @@ section .right-side img {
 }
 
 .tittle-1 {
-    /* min-width: 530px; */
     text-transform: uppercase;
     font-size: 70px;
     font-weight: 900;
