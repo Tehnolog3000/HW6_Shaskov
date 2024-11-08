@@ -6,25 +6,33 @@
 }
 
 nav{
-    text-align: center; 
+    text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 
 nav ul li{
     display: inline-block;
+    vertical-align: -webkit-baseline-middle;
     margin: 0px 25px;
-    
+   
 }
 nav ul {
-    display: inline-block;   
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .logo-style{
     float: left;
 }
+.logo-style img {
+    vertical-align: middle;
+}
 
 .btn-style{
     float: right;
 }
+
 .style-logout {
     float: right;
     width: 100px;
