@@ -141,4 +141,9 @@
     font-weight: 100;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Hanging Letters';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hanging Letters'), url('https://fonts.cdnfonts.com/s/34387/Hanged Letters.woff') format('woff');
+}
